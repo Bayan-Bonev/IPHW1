@@ -1,11 +1,11 @@
 /* 1. Основни цветове и шрифтове */
 :root {
-    --main-bg: #f5f7fa;
-    --main-color: #2a5298;
-    --accent-color: #1e3c72;
-    --text-color: #222;
-    --header-bg: #eaf0fb;
-    --footer-bg: #eaf0fb;
+    --main-bg: #1f2022;
+    --main-color: #afafaf;
+    --accent-color: #555555;
+    --text-color: #dddddd;
+    --header-bg: #27282b;
+    --footer-bg: #28292b;
 }
 
 body {
@@ -16,7 +16,7 @@ body {
     padding: 0;
 }
 
-inlineheader {
+.inlineheader {
     display: inline-block;
     flex-direction: column;
     align-items: center;
@@ -25,20 +25,23 @@ inlineheader {
 }
 
 h1, h2, h3 {
-    font-family: 'Montserrat', Verdana, sans-serif;
+    /*font-family: 'Montserrat', Verdana, sans-serif;*/
     color: var(--main-color);
     margin-top: 0;
     animation: fadeInDown 1s;
 }
 
 p, a, li {
-    font-family: 'Segoe UI', Arial, sans-serif;
+    /*font-family: 'Segoe UI', Arial, sans-serif;*/
 }
 
 a {
     color: var(--main-color);
-    text-decoration: none;
     transition: color 0.3s;
+}
+
+input {
+    color:#292a2b
 }
 
 a:hover {
@@ -82,7 +85,7 @@ section, .container, footer {
     border-radius: 8px;
     box-sizing: border-box;
     max-width: 900px;
-    background: #fff;
+    background: #2a2b2c;
     box-shadow: 0 2px 8px rgba(0,0,0,0.04);
 }
 
@@ -93,7 +96,7 @@ section, .container, footer {
     gap: 16px;
     border: 2px solid var(--main-color);
     padding: 16px;
-    background: #f9fbff;
+    background: #292a2b;
 }
 
 /* Картички за проекти */
@@ -105,7 +108,7 @@ section, .container, footer {
 }
 
 .card {
-    background: #fff;
+    background: #242d31;
     border: 1px solid var(--main-color);
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.05);
@@ -126,7 +129,7 @@ section, .container, footer {
     margin-top: 12px;
     padding: 8px 16px;
     background: var(--main-color);
-    color: #fff;
+    color: #242d31;
     border: none;
     border-radius: 4px;
     cursor: pointer;

@@ -7,19 +7,43 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<h3>Контакти:</h3>
-<ul>
-    <li>Телефон: 087707****</li>
-    <li>Имейл: 21404@uktc-bg.com</li>
-</ul>
-<form>>
-    <label for="name">Име:</label><br>
-    <input type="text" id="name" name="name"><br>
-    <label for="email">Имейл:</label><br>
-    <input type="email" id="email" name="email"><br>
-    <label for="message">Съобщение:</label><br>
-    <textarea id="message" name="message"></textarea><br>
-    <input type="submit" value="Изпрати">
-</form>
+    <header>
+        <nav>
+            <a href="index.html">Начало</a>
+            <a href="about.html">За мен</a>
+            <a href="projects.html">Проекти</a>
+            <a href="education.html">Образование</a>
+            <a href="contact.html" class="active">Контакти</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h3>Контакти:</h3>
+            <ul>
+                <li>Телефон: 087707****</li>
+                <li>Имейл: 21404@uktc-bg.com</li>
+            </ul>
+            <form>
+                <label for="name">Име:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Имейл:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="subject">Тема:</label>
+                <input type="text" id="subject" name="subject" required>
+                <label for="message">Съобщение:</label>
+                <textarea id="message" name="message" required></textarea>
+                <label>
+                    <input type="checkbox" required> Съгласен съм с условията
+                </label>
+                <input type="submit" value="Изпрати">
+            </form>
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2904.697051893447!2d23.91416731544298!3d42.89583307915547!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40aa8e2e4e2e2e2b%3A0x7b7b7b7b7b7b7b7b!2z0J_QtdC60YHQsNC90LAg0JrQvtC80L7QvdCwINCf0L7Qu9Cw0YHRgtCw!5e0!3m2!1sbg!2sbg!4v1680000000000!5m2!1sbg!2sbg" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+    </main>
+    <footer>
+        &copy; 2025 Баян Бонев | 
+        <a href="https://facebook.com/" target="_blank">Facebook</a>
+        <a href="https://instagram.com/" target="_blank">Instagram</a>
+    </footer>
 </body>
 </html>

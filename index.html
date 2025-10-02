@@ -7,19 +7,37 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <nav>
-        <table>
-            <tr><a href = "about.html">За мен</a></tr>
-            <tr><a href = "projects.html">Проекти</a></tr>
-            <tr><a href = "education.html">Образование</a></tr>
-            <tr><a href = "contact.html">Контакти</a></tr>
-        </table>
-    </nav>
-
-    <div><img src = "prtfolio_pic.jpg", alt = "Баян Бонев", width = 100px, height = 150px>
-        <span style="height: max-content;">Добре дошли в моето портфолио!</span><br>
-        <span style="height: max-content">Казвам се Баян Бонев и съм ученик в НПГ по КТС гр.Правец.</span><br>
-    </div>
-    
+    <header>
+        <nav>
+            <a href="index.html" class="active">Начало</a>
+            <a href="about.html">За мен</a>
+            <a href="projects.html">Проекти</a>
+            <a href="education.html">Образование</a>
+            <a href="contact.html">Контакти</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Добре дошли в моето портфолио!</h1>
+            <div class="container">
+                <div>
+                    <img src="prtfolio_pic.jpg" alt="Баян Бонев" width="150" height="200">
+                </div>
+                <div>
+                    <p>Казвам се Баян Бонев и съм ученик в НПГ по КТС гр. Правец.</p>
+                    <p>Тук ще откриете информация за моето образование, интереси и проекти.</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2>Любимо видео</h2>
+            <iframe width="400" height="225" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video" frameborder="0" allowfullscreen></iframe>
+        </section>
+    </main>
+    <footer>
+        &copy; 2025 Баян Бонев | 
+        <a href="https://facebook.com/" target="_blank">Facebook</a>
+        <a href="https://instagram.com/" target="_blank">Instagram</a>
+    </footer>
 </body>
 </html>

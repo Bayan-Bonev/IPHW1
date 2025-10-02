@@ -7,18 +7,38 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h2>За мен</h2>
-    <p>Казвам се Баян Бонев. Уча в НПГ по КТС и се интересувам от музика.</p>
-    <div class = "container">
-        <style>.container {
-            display: grid;
-            grid-template-columns: auto auto auto;
-            padding: 10px;
-            border: 2px solid black;
-        }</style>
-        <div><img src="prtfolio_pic.jpg" alt="Баян Бонев" width="100" height="150px"></div>
-        <div><p>Примерен текст</p></div>
-        <div><p>Примерен текст</p></div>
-    </div>
+    <header>
+        <nav>
+            <a href="index.html">Начало</a>
+            <a href="about.html" class="active">За мен</a>
+            <a href="projects.html">Проекти</a>
+            <a href="education.html">Образование</a>
+            <a href="contact.html">Контакти</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>За мен</h2>
+            <div class="container">
+                <div>
+                    <img src="prtfolio_pic.jpg" alt="Баян Бонев" width="150" height="200">
+                </div>
+                <div>
+                    <p>Казвам се Баян Бонев. Роден съм в гр. Правец и уча в НПГ по КТС. Интересувам се от програмиране, музика и технологии. Обичам да уча нови неща и да работя по интересни проекти.</p>
+                    <ul class="hobbies">
+                        <li>Музика</li>
+                        <li>Програмиране</li>
+                        <li>Футбол</li>
+                        <li>Пътувания</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        &copy; 2025 Баян Бонев | 
+        <a href="https://facebook.com/" target="_blank">Facebook</a>
+        <a href="https://instagram.com/" target="_blank">Instagram</a>
+    </footer>
 </body>
 </html>
